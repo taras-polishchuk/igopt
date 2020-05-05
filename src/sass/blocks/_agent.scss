@@ -1,0 +1,34 @@
+.agent {
+    padding: 58px 0 75px 0;
+    background: url('../img/bg/agent.jpg') center (center/cover) no-repeat;
+    &__icon {
+        width: 102px;
+        height: 102px;
+        border: 1.0px solid #ffffff;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+        transform: translateY(50%);
+    }
+    &__title {
+        font-family: Roboto;
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 20px;
+    }
+    &__descr {
+        font-family: Roboto;
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 22px;
+    }
+}

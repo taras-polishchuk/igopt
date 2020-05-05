@@ -1,0 +1,70 @@
+.price {
+    padding: 53px 0 58px 0;
+    &__divider {
+        margin-top: 20px;
+    }
+    &__subtitle {
+        font-family: Roboto;
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #2e2e2e;
+        text-align: center;
+        margin-top: 17px;
+        margin-bottom: 34px;
+    }
+    &__item {
+        width: 265px;
+        height: 355px;
+        border: 1.0px solid #e9e9e9;
+        text-align: center;
+    }
+    &__title {
+        width: 100%;
+        height: 61px;
+        background-color: #25333c;
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 60px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__img {
+        margin-top: 14px;
+    }
+    &__item-subtitle {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #2e2e2e;
+        margin-top: 12px;
+    }
+    &__value {
+        font-family: Roboto;
+        font-size: 28px;
+        font-weight: 400;
+        text-transform: none;
+        color: #ec644b;
+        margin-bottom: 19px;
+        margin-top: 4px;
+    }
+    &__descr {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+        color: #2e2e2e;
+        margin-bottom: 23px;
+    }
+    &__consultation {
+        font-family: Roboto;
+        margin-top: 56px;
+        font-size: 28px;
+        line-height: 23px;
+        font-weight: 400;
+        color: #3a3a3a;
+        text-align: center;
+    }
+}

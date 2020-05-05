@@ -1,0 +1,43 @@
+.work {
+    padding: 51px 0 57px 0;
+    &__title {
+        margin-bottom: 20px;
+    }
+    &__subtitle {
+        font-family: Roboto;
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #2e2e2e;
+        text-align: center;
+        margin-top: 17px;
+    }
+    &__item {
+        margin-top: 37px;
+    }
+    &__small-title{
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: $main-color;
+        text-align: center;
+        margin-top: 28px;
+    }
+    &__descr {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        line-height: 22px;
+        text-align: center;
+    }
+
+}
+.divider{
+    width: 148px;
+    height: 1px;
+    background-color: $main-color;
+    margin: 0 auto;
+
+}

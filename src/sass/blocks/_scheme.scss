@@ -1,0 +1,30 @@
+.scheme {
+    padding: 51px 0 20px 0;
+    min-height: 454px;
+    background-color: #f3f3f3;
+    &__title {
+        margin-bottom: 30px;
+    }
+    &__item {
+        text-align: center;
+        margin-bottom: 30px;
+        &_ml {
+            transform: translateX(15%);
+        }
+    }
+    &__subtitle {
+        font-family: Roboto;
+        margin-top: 12px;
+        font-size: 16px;
+        font-weight: 700;
+        color: #ec644b;
+    }
+    &__descr {
+        font-family: Roboto;
+        margin-top: 5px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+        color: #3a3a3a;
+    }
+}

@@ -1,0 +1,46 @@
+.carousel {
+    // text-align: center;
+    margin-top: 31px;
+    &__inner { 
+        max-width: 701px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    &__img  {
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    &__title {
+        font-family: Roboto;
+        text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #3a3a3a;
+        margin-top: 19px;
+    }
+    &__review {
+        font-family: Roboto;
+        text-align: center;
+        font-size: 14.1px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #3a3a3a;
+        margin-top: 13px;
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        top: 32px;
+        left: 32%;
+        border: none;
+        background-color: #ffffff00;
+        z-index: 2;
+    }
+    .slick-next {
+        left: 65%;
+    }
+    .slick-slide {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}

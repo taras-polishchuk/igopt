@@ -1,0 +1,27 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/bootstrap-grid.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+
+
+@import 'base/reset';
+@import 'base/variables';
+
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/work';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/form';
+@import 'blocks/managers';
+@import 'blocks/scheme';
+@import 'blocks/reviews';
+@import 'blocks/carousel';
+@import 'blocks/questions';
+@import 'blocks/map';
+@import 'blocks/footer';
+
+@import 'base/media';

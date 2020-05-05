@@ -1,0 +1,58 @@
+.header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   &__contacts {
+       display: flex;
+   }
+   &__phone {
+       display: flex;
+       flex-direction: column;
+       text-align: right;
+        margin-right: 19px;
+        &-questions {
+            font-family: Roboto;
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+        a {
+            font-family: Roboto;
+            font-size: 19px;
+            line-height: 24px;
+            font-weight: 700;
+            color: #ffffff;
+            cursor: pointer;
+            &:visited {
+                color: #fff;
+            }
+        }
+   }
+}
+.nav {
+    width: 600px;
+    &__items {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+
+    }
+    &__item {
+        display: flex;
+        text-align: center;
+        padding-right: 13px;
+        border-right: 1px dotted rgba(255, 255, 255, 0.486);
+        &:last-child {
+            border-right: none;
+        }
+        a {
+            font-family: Roboto;
+            font-size: 15px;
+            line-height: 16px;
+            font-weight: 400;
+            color: #ffffff;
+        }
+    }
+}
